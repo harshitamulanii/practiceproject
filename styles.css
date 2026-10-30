@@ -27,6 +27,23 @@ header {
     font-size: 32px;
 }
 
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.header-icons a {
+    color: #633449;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header-icons a:hover,
+.header-icons a:focus-visible {
+    color: #b34e78;
+}
+
 .header-icons img {
     width: 34px;
     height: 34px;
@@ -134,6 +151,24 @@ main {
     text-align: center;
 }
 
+.empty-state {
+    padding: 42px 24px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+}
+
+.empty-state h2 {
+    margin-top: 0;
+    color: #8e4564;
+    font-family: Georgia, serif;
+}
+
+.empty-state a {
+    color: #a23e68;
+    font-weight: bold;
+}
+
 .category-intro h2 {
     margin-bottom: 8px;
     font-size: 30px;
@@ -167,6 +202,66 @@ main {
     margin: 16px 10px 20px;
     color: #633449;
     font-family: Georgia, serif;
+}
+
+.product-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 12px 12px;
+}
+
+.button {
+    padding: 10px 12px;
+    border: 0;
+    border-radius: 6px;
+    font: inherit;
+    cursor: pointer;
+}
+
+.button:focus-visible {
+    outline: 3px solid #633449;
+    outline-offset: 2px;
+}
+
+.button-primary {
+    background-color: #8e4564;
+    color: white;
+}
+
+.button-secondary {
+    background-color: #f8e9ee;
+    color: #633449;
+}
+
+.product-status {
+    min-height: 1.2em;
+    margin: 0 10px 12px;
+    color: #633449;
+}
+
+.cart-quantity {
+    margin: 0 10px 16px;
+}
+
+.collection-page {
+    padding: 28px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.collection-page > h2 {
+    margin-top: 0;
+    color: #8e4564;
+    font-family: Georgia, serif;
+}
+
+.empty-message a {
+    display: inline-block;
+    margin-left: 6px;
+    color: #a23e68;
+    font-weight: bold;
 }
 
 footer {

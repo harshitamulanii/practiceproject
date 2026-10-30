@@ -1,6 +1,6 @@
 # LipLush Website
 
-LipLush is a simple multi-page lip product catalogue made with HTML and CSS. Open `LipLush.html` in a browser to start browsing. The pages use a shared stylesheet and do not use JavaScript.
+LipLush is a simple multi-page lip product catalogue made with HTML, CSS, and a small shared JavaScript file. Open `LipLush.html` in a browser to start browsing. Product cart and wishlist selections are saved in the browser's local storage.
 
 ## Pages and changes
 
@@ -10,6 +10,10 @@ LipLush is a simple multi-page lip product catalogue made with HTML and CSS. Ope
 - **`lipstains.html` — Lip Stains:** Added a collection introduction and product cards for the two existing lip stain images.
 - **`lipgloss.html` — Lip Gloss:** Added a collection introduction and product cards for the two existing lip gloss images.
 - **`lipsticks.html` — Lipsticks:** Added a collection introduction and product cards for the three existing lipstick images.
+- **`notifications.html` — Notifications:** Added a simple empty state for the notification icon link.
+- **`cart.html` — Shopping cart:** Lists saved products, quantities, and lets shoppers remove products.
+- **`wishlist.html` — Wishlist:** Lists saved favourites and lets shoppers add them to the cart or remove them.
+- **`cart-wishlist.js` — Product actions:** Adds cart and wishlist buttons to every collection product and saves selections in local storage.
 - **`styles.css` — Shared design:** Centralized the colors, header, navigation, page layout, product cards, footer, and small-screen layout so all pages have a consistent appearance.
 
 ## Project files
@@ -20,6 +24,9 @@ LipLush is a simple multi-page lip product catalogue made with HTML and CSS. Ope
 - `lipstains.html`
 - `lipgloss.html`
 - `lipsticks.html`
+- `notifications.html`
+- `cart.html`
+- `wishlist.html`
 - `styles.css`
 - `images/` — Existing logo, product, and interface images
 
