@@ -27,13 +27,14 @@ header {
 }
 .search-container {
     display: flex;
-    align-items: left;
+    align-items: center;
     border: 1px solid #8b5e52;
     border-radius: 10px;
     padding: 5px 22px;
     background-color: #fffaf7;
     width: 465px;
 }
+
 .brand {
     margin: 0;
     color: #b34e78;
@@ -59,11 +60,13 @@ header {
     color: #b34e78;
 }
 
-.header-icons img {
-    width: 34px;
-    height: 34px;
-    margin-left: 12px;
-    object-fit: contain;
+.header-icons i {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
 }
 
 nav {
@@ -347,10 +350,11 @@ footer {
         font-size: 26px;
     }
 
-    .header-icons img {
-        width: 27px;
-        height: 27px;
-        margin-left: 5px;
+    .header-icons i {
+        width: 18px;
+        height: 18px;
+        font-size: 18px;
+        line-height: 18px;
     }
 
     main {
